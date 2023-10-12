@@ -11,6 +11,7 @@
 		CD29378D2AD72A940079C309 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD29378C2AD72A940079C309 /* ContentView.swift */; };
 		CD29378F2AD72A950079C309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD29378E2AD72A950079C309 /* Assets.xcassets */; };
 		CD2937922AD72A950079C309 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2937912AD72A950079C309 /* Preview Assets.xcassets */; };
+		CD2937992AD741500079C309 /* Notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD2937982AD741500079C309 /* Notes.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CD29378C2AD72A940079C309 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD29378E2AD72A950079C309 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD2937912AD72A950079C309 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD2937982AD741500079C309 /* Notes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Notes.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		CD29377E2AD72A940079C309 = {
 			isa = PBXGroup;
 			children = (
+				CD2937982AD741500079C309 /* Notes.txt */,
 				CD2937892AD72A940079C309 /* Mapkit Sean Allen */,
 				CD2937882AD72A940079C309 /* Products */,
 			);
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD2937922AD72A950079C309 /* Preview Assets.xcassets in Resources */,
+				CD2937992AD741500079C309 /* Notes.txt in Resources */,
 				CD29378F2AD72A950079C309 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +279,9 @@
 				DEVELOPMENT_TEAM = 979MPXHXFC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "App needs your location to show it on the map. (a&w)";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App needs your location to show it on the map. (always)";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App needs your location to show it on the map. (when)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +311,9 @@
 				DEVELOPMENT_TEAM = 979MPXHXFC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "App needs your location to show it on the map. (a&w)";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "App needs your location to show it on the map. (always)";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App needs your location to show it on the map. (when)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
